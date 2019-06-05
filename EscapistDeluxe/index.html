@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sabiland - EscapistDeluxe</title>
+  <meta name="description" content="EscapistDeluxe">
+  <meta name="author" content="Sabiland">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="sabiland_escapist_deluxe.js"></script>
+</head>
+<body>
+  <div style="margin-top: 10px; text-align: center;">
+    <canvas id="m_cnvEscapistDeluxeFullScreen"></canvas>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+
+    jQuery(document).ready(function () {
+        jQuery('#m_cnvEscapistDeluxeFullScreen').escapistdeluxe({ width: 900, height: 700, ticklength: 33, numofrunners: 100 });
+        return;
+    });
+
+      //]]>
+</script>
+</body>
+</html>
